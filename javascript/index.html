@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diff Test</title>
+	   <script type="text/javascript" src="diff_match_patch.js"></script>
+	<script type="text/javascript">
+
+		function CheckDiff(){
+				var dmp = new diff_match_patch();
+       			var d = dmp.diff_main("The quick brown fox jumps over the lazy dog.", "That quick brown fox jumped over a lazy dog.");
+        		dmp.diff_cleanupSemantic(d);
+        		document.write(dmp.diff_prettyHtml(d));
+        		return false;
+		}
+	</script>
+</head>
+<body>
+	<input type="button" value="Click" onclick="return CheckDiff();">
+</body>
+</html>

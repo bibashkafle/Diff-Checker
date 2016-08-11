@@ -1,0 +1,4 @@
+c:\users\lenovo\documents\visual studio 2010\Projects\Diff Checker\Diff Checker\bin\Diff Checker.dll
+c:\users\lenovo\documents\visual studio 2010\Projects\Diff Checker\Diff Checker\bin\Diff Checker.pdb
+c:\users\lenovo\documents\visual studio 2010\Projects\Diff Checker\Diff Checker\obj\Debug\Diff Checker.dll
+c:\users\lenovo\documents\visual studio 2010\Projects\Diff Checker\Diff Checker\obj\Debug\Diff Checker.pdb
